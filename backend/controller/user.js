@@ -47,7 +47,7 @@ router.post("/create-user", catchAsyncErrors(async (req, res, next) => {
   const activationToken = createActivationToken(user);
 
   // Send activation email
-  const activationUrl = `http://localhost:3000/api/v2/activation/${activationToken}`;
+  const activationUrl = `https://shopiva-uzxw.vercel.app/api/v2/activation/${activationToken}`;
   await sendMail({
     email: user.email,
     subject: "Activate your account",
