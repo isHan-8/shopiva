@@ -9,7 +9,7 @@
 
 
 
-export const server = "https://shopiva.vercel.app/api/v2";
+export const server = "https://shopiva.vercel.app/test/api/v2";
 
 
-export  const  backend_url = "https://shopiva.vercel.app/";
+export  const  backend_url = "https://shopiva.vercel.app/test";
